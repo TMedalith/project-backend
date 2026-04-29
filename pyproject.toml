@@ -1,0 +1,22 @@
+[project]
+name = "rag"
+version = "0.2.0"
+description = "Raccly — NASA bioscience high-precision RAG API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "llama-index-core>=0.14.0",
+    "llama-index-embeddings-openai>=0.5.1",
+    "llama-index-llms-openai>=0.6.13",
+    "llama-index-vector-stores-qdrant>=0.9.1",
+    "llama-index-vector-stores-postgres>=0.4.0",
+    "docling>=2.0.0",
+    "llama-index-postprocessor-cohere-rerank>=0.4.0",
+    "openai>=1.107.0",
+    "qdrant-client>=1.15.1",
+    "pydantic-settings>=2.0.0",
+    "uvicorn[standard]>=0.35.0",
+    "llama-index>=0.14.21",
+    "psycopg2-binary>=2.9.12",
+]
